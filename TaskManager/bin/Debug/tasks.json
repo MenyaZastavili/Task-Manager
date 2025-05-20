@@ -1,0 +1,44 @@
+[
+  {
+    "TagsDisplay": "Учёба",
+    "Id": "8564a86d-51a6-467a-9469-546c36846343",
+    "Title": "Сделать проект!!!",
+    "Description": "До 23.05 необходимо сделать проект включающий в себя:\r\n- Документацию (. . .)\r\n- Тесты",
+    "Deadline": "2025-05-23T00:00:00",
+    "IsCompleted": false,
+    "CreationDate": "2025-05-07T14:53:28.6642331+04:00",
+    "IsPriority": true,
+    "Tags": [
+      "Учёба"
+    ],
+    "SubTasks": [
+      {
+        "Title": "Доделать диаграммы!",
+        "IsCompleted": false
+      },
+      {
+        "Title": "Дописать документацию!",
+        "IsCompleted": false
+      }
+    ]
+  },
+  {
+    "TagsDisplay": "Бытовое",
+    "Id": "877f92d9-6771-42d7-86f6-ee0d7bf70383",
+    "Title": "Покушоть",
+    "Description": "Надо срочно покушоть!!",
+    "Deadline": "2025-05-12T00:00:00",
+    "IsCompleted": true,
+    "CreationDate": "2025-05-12T10:45:07.2058532+04:00",
+    "IsPriority": false,
+    "Tags": [
+      "Бытовое"
+    ],
+    "SubTasks": [
+      {
+        "Title": "Выпить таблетку",
+        "IsCompleted": true
+      }
+    ]
+  }
+]

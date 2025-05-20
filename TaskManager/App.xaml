@@ -1,0 +1,38 @@
+﻿<Application x:Class="TaskManager.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:TaskManager"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="TextBoxWithPlaceholder" TargetType="TextBox">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Grid>
+                            <TextBox x:Name="textBox"
+                                     Text="{Binding Text, RelativeSource={RelativeSource TemplatedParent}, UpdateSourceTrigger=PropertyChanged}"
+                                     Background="Transparent"
+                                     BorderThickness="0"/>
+                            <TextBlock x:Name="placeholderTextBlock"
+                                       Text="{TemplateBinding Tag}"
+                                       Foreground="Gray"
+                                       Visibility="Collapsed"
+                                       Margin="5,0,0,0"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <DataTrigger Binding="{Binding Text, RelativeSource={RelativeSource TemplatedParent}}" Value="">
+                                <Setter TargetName="placeholderTextBlock" Property="Visibility" Value="Visible"/>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding Text, RelativeSource={RelativeSource TemplatedParent}}" Value="{x:Null}">
+                                <Setter TargetName="placeholderTextBlock" Property="Visibility" Value="Visible"/>
+                            </DataTrigger>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter TargetName="placeholderTextBlock" Property="Visibility" Value="Collapsed"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Application.Resources>
+</Application>

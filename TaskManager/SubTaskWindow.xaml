@@ -1,0 +1,16 @@
+﻿<Window  x:Class="TaskManager.SubTaskWindow"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TaskManager"
+      mc:Ignorable="d" 
+      d:DesignHeight="150" d:DesignWidth="300"
+      Title="Добавить подзадачу" Height="150" Width="300">
+
+    <Grid Background="#fff">
+        <Label Content="Название подзадачи:" Margin="10,10,10,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox x:Name="SubTaskTitleTextBox" Margin="10,40,10,10" HorizontalAlignment="Stretch" VerticalAlignment="Top"/>
+        <Button Content="Добавить" Margin="10,80,10,10" HorizontalAlignment="Right" VerticalAlignment="Top" Width="80" Click="AddSubTaskButton_Click"/>
+    </Grid>
+</Window>
