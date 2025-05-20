@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TaskManager"
         mc:Ignorable="d"
-        Title="Менеджер задач" Height="600" Width="1097" Loaded="Window_Loaded" Closing="Window_Closing">
+        Title="Менеджер задач" MinWidth="1065" Height="600" Width="1097" Loaded="Window_Loaded" Closing="Window_Closing" Icon="/Icon.jpg">
 
     <Window.Resources>
         <Style TargetType="CheckBox">
@@ -88,7 +88,7 @@
 
             <DataGrid x:Name="TasksDataGrid" Margin="5" AutoGenerateColumns="False" CanUserResizeColumns="False" CanUserAddRows="False" HeadersVisibility="Column" GridLinesVisibility="None">
                 <DataGrid.Columns>
-                    <DataGridTemplateColumn Header="Приоритет" Width="100">
+                    <DataGridTemplateColumn Header="Приоритет" MinWidth="100" Width="*">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
                                 <CheckBox IsChecked="{Binding IsPriority, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Center" VerticalAlignment="Center">
@@ -114,7 +114,7 @@
                             </DataTemplate>
                         </DataGridTemplateColumn.CellTemplate>
                     </DataGridTemplateColumn>
-                    <DataGridTemplateColumn Header="Название" Width="200">
+                    <DataGridTemplateColumn Header="Название" MinWidth="200" Width="*">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
                                 <TextBlock Text="{Binding Title}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
@@ -122,21 +122,21 @@
                         </DataGridTemplateColumn.CellTemplate>
                     </DataGridTemplateColumn>
                     <DataGridTextColumn Header="Описание" Binding="{Binding Description}" Width="300"/>
-                    <DataGridTemplateColumn Header="Теги" Width="150">
+                    <DataGridTemplateColumn Header="Теги" MinWidth="150" Width="*">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
                                 <TextBlock Text="{Binding TagsDisplay}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                             </DataTemplate>
                         </DataGridTemplateColumn.CellTemplate>
                     </DataGridTemplateColumn>
-                    <DataGridTemplateColumn Header="Дедлайн" Width="125">
+                    <DataGridTemplateColumn Header="Дедлайн" MinWidth="125" Width="*">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
                                 <TextBlock Text="{Binding Deadline, StringFormat='dd.MM.yyyy'}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                             </DataTemplate>
                         </DataGridTemplateColumn.CellTemplate>
                     </DataGridTemplateColumn>
-                    <DataGridTemplateColumn Header="Выполнена" Width="112">
+                    <DataGridTemplateColumn Header="Выполнена" MinWidth="112" Width="*">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
                                 <CheckBox IsChecked="{Binding IsCompleted, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Center" VerticalAlignment="Center"/>

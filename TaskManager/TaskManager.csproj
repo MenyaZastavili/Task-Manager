@@ -149,5 +149,12 @@
   <ItemGroup>
     <Resource Include="Документы\Диаграммы_png\ДиаграммаКлассов.jpg" />
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Icon\Icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icon.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
