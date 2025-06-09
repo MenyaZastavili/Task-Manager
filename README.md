@@ -1,6 +1,10 @@
 ## Установка
 **Запуск приложения:**
 * Скачайте приложение с через установщик Task-Manager
+![Language](png/Language.jpg)
+![Path](png/Path.jpg)
+![Icon](png/Icon.jpg)
+![Done](png/Done.jpg)
 
 ## Контент
   * Руководство пользователя
