@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Project\\TaskManager\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A0785FFC-F12C-4F03-9820-9A22214A52B1}|TaskManager.csproj|d:\\project\\taskmanager\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0785FFC-F12C-4F03-9820-9A22214A52B1}|TaskManager.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0785FFC-F12C-4F03-9820-9A22214A52B1}|TaskManager.csproj|d:\\project\\taskmanager\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u043A\u043E\u043D\u0442\u0435\u043D\u0442.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}",
+      "RelativeMoniker": "D:0:0:{A0785FFC-F12C-4F03-9820-9A22214A52B1}|TaskManager.csproj|solutionrelative:\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u043A\u043E\u043D\u0442\u0435\u043D\u0442.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +31,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Project\\TaskManager\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\Project\\TaskManager\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T12:03:23.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "\u041A\u043E\u043D\u0442\u0435\u043D\u0442.md",
+              "DocumentMoniker": "D:\\Project\\TaskManager\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u041A\u043E\u043D\u0442\u0435\u043D\u0442.md",
+              "RelativeDocumentMoniker": "\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u041A\u043E\u043D\u0442\u0435\u043D\u0442.md",
+              "ToolTip": "D:\\Project\\TaskManager\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u041A\u043E\u043D\u0442\u0435\u043D\u0442.md",
+              "RelativeToolTip": "\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u041A\u043E\u043D\u0442\u0435\u043D\u0442.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-06-09T11:43:19.798Z",
+              "EditorCaption": ""
             }
           ]
         }

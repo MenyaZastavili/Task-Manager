@@ -115,11 +115,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Документы\Анализ_рисков.md" />
     <None Include="Документы\Диаграммы\ДиаграммаКлассов.drawio" />
     <None Include="Документы\Диаграммы\ДиаграммаПрецедентов.drawio" />
+    <None Include="Документы\Документация_для_разработчиков.md" />
     <None Include="Документы\Назначение_программы.md" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Документы\План_внедрения.md" />
     <None Include="Документы\Пользователи_и_бизнес-процессы.md" />
   </ItemGroup>
   <ItemGroup>
@@ -149,12 +152,14 @@
   <ItemGroup>
     <Resource Include="Документы\Диаграммы_png\ДиаграммаКлассов.jpg" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Resource Include="Icon\Icon.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Документы\Диаграммы_png\Диаграмма_Ганта.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

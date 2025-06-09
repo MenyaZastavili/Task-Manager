@@ -1,0 +1,21 @@
+[
+  {
+    "TagsDisplay": "Учёба",
+    "Id": "df77ac06-a3af-4508-8fff-6f4a6b66da09",
+    "Title": "Сдать экзамен",
+    "Description": "",
+    "Deadline": "2025-06-11T00:00:00",
+    "IsCompleted": false,
+    "CreationDate": "2025-06-09T15:06:42.6259977+04:00",
+    "IsPriority": true,
+    "Tags": [
+      "Учёба"
+    ],
+    "SubTasks": [
+      {
+        "Title": "аа",
+        "IsCompleted": false
+      }
+    ]
+  }
+]
