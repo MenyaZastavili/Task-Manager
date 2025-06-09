@@ -1,12 +1,17 @@
 ## Установка
 **Запуск приложения:**
 * Скачайте приложение с через установщик Task-Manager
-![Language](png/Language.jpg)
-![Path](png/Path.jpg)
-![Icon](png/Icon.jpg)
-![Done](png/Done.jpg)
+  
+![Language](TaskManager/png/Language.jpg)
+
+![Path](TaskManager/png/Path.jpg)
+
+![Icon](TaskManager/png/Icon.jpg)
+
+![Done](TaskManager/png/Done.jpg)
 
 ## Контент
+Файл содержащий ссылки на всю документацию - [Контент](TaskManager/Документы/Контент.md)
   * Руководство пользователя
      * [Руководство пользователя](TaskManager/Документы/Руководство_пользователя.md)
        
