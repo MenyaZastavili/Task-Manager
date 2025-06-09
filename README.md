@@ -1,15 +1,15 @@
 ## Установка
 **Запуск приложения:**
 * Скачайте приложение с через установщик Task-Manager
-![Language](/Task-Manager/png/Language.jpg)
-![Path](/Task-Manager/png/Path.jpg)
-![Icon](/Task-Manager/png/Icon.jpg)
-![Done](/Task-Manager/png/Done.jpg)
+![Language](Task-Manager/TaskManager/png/Language.jpg)
+![Path](Task-Manager/TaskManager/png/Path.jpg)
+![Icon](Task-Manager/TaskManager/png/Icon.jpg)
+![Done](Task-Manager/TaskManager/png/Done.jpg)
 
 ## Контент
-Файл содержащий ссылки на всю документацию - [Контент](TaskManager/Документы/Контент.md)
+Файл содержащий ссылки на всю документацию - [Контент](Task-Manager/TaskManager/Документы/Контент.md)
   * Руководство пользователя
-     * [Руководство пользователя](TaskManager/Документы/Руководство_пользователя.md)
+     * [Руководство пользователя](Task-Manager/TaskManager/Документы/Руководство_пользователя.md)
        
   * Требования
     * [Системные требования](TaskManager/Документы/Системные_требования.md)
